@@ -1,4 +1,4 @@
-# Group #5 - 47406
+# Group #5 - 47406 -Attendly 
 Attendly
  Students and lecturers struggle daily when it comes to keeping up with class attendance. It takes up much of the class time which could be put to much better use! In addition, students are constantly in doubt of their absences’ percentage. 
 

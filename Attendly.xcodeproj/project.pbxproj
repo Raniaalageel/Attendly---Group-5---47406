@@ -20,6 +20,9 @@
 		53368D0B28C65AE4000A1B50 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 53368D0A28C65AE4000A1B50 /* FirebaseFirestoreCombine-Community */; };
 		53368D0D28C65AE4000A1B50 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 53368D0C28C65AE4000A1B50 /* FirebaseFirestoreSwift */; };
 		53368D0F28C65AE4000A1B50 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 53368D0E28C65AE4000A1B50 /* FirebaseStorage */; };
+		A2DDA1E928C6848900C2493B /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DDA1E828C6848900C2493B /* ViewA.swift */; };
+		A2DDA1EB28C6849E00C2493B /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DDA1EA28C6849E00C2493B /* ViewB.swift */; };
+		A2DDA1ED28C684B000C2493B /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DDA1EC28C684B000C2493B /* ViewC.swift */; };
 		F00DD56628C5305C00DA1E37 /* AttendlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD56528C5305C00DA1E37 /* AttendlyApp.swift */; };
 		F00DD56828C5305C00DA1E37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD56728C5305C00DA1E37 /* ContentView.swift */; };
 		F00DD56A28C5305F00DA1E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00DD56928C5305F00DA1E37 /* Assets.xcassets */; };
@@ -49,6 +52,9 @@
 /* Begin PBXFileReference section */
 		53368CF728C625CF000A1B50 /* SwiftUIViewSplach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSplach.swift; sourceTree = "<group>"; };
 		53368CF928C659E1000A1B50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A2DDA1E828C6848900C2493B /* ViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
+		A2DDA1EA28C6849E00C2493B /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
+		A2DDA1EC28C684B000C2493B /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
 		F00DD56228C5305C00DA1E37 /* Attendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00DD56528C5305C00DA1E37 /* AttendlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendlyApp.swift; sourceTree = "<group>"; };
 		F00DD56728C5305C00DA1E37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2DDA1E728C6844400C2493B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2DDA1E828C6848900C2493B /* ViewA.swift */,
+				A2DDA1EA28C6849E00C2493B /* ViewB.swift */,
+				A2DDA1EC28C684B000C2493B /* ViewC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F00DD55928C5305C00DA1E37 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +136,7 @@
 			children = (
 				F00DD56528C5305C00DA1E37 /* AttendlyApp.swift */,
 				F00DD56728C5305C00DA1E37 /* ContentView.swift */,
+				A2DDA1E728C6844400C2493B /* Views */,
 				F00DD56928C5305F00DA1E37 /* Assets.xcassets */,
 				53368CF928C659E1000A1B50 /* GoogleService-Info.plist */,
 				F00DD56B28C5305F00DA1E37 /* Preview Content */,
@@ -301,7 +318,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00DD56828C5305C00DA1E37 /* ContentView.swift in Sources */,
+				A2DDA1EB28C6849E00C2493B /* ViewB.swift in Sources */,
 				F00DD56628C5305C00DA1E37 /* AttendlyApp.swift in Sources */,
+				A2DDA1E928C6848900C2493B /* ViewA.swift in Sources */,
+				A2DDA1ED28C684B000C2493B /* ViewC.swift in Sources */,
 				53368CF828C625CF000A1B50 /* SwiftUIViewSplach.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

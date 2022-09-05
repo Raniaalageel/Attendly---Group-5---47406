@@ -6,8 +6,7 @@
 //
 
 import SwiftUI
-
-
+import FirebaseAuth
 
 @main
 struct AttendlyApp: App {

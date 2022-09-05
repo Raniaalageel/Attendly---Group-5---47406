@@ -7,11 +7,14 @@
 
 import SwiftUI
 
+
+
 @main
 struct AttendlyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           //ContentView()
+        SwiftUIViewSplach()
         }
     }
 }

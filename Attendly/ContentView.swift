@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
   @State var idStudent=""
     var body: some View {
-       // Text("Hello, Rania is here")
+       // Text("Hello, Rania is here#########")
            // .padding()
         
      /*  ZStack{

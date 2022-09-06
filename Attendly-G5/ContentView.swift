@@ -10,7 +10,7 @@ import FirebaseAnalyticsSwift
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world sara")
+        Text("Hello, world sara///Rania")
             .padding()
     }
 }

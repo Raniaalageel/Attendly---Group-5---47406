@@ -17,6 +17,19 @@ struct ContentView: View {
     @State var   subject = ""
     @State var   section = ""
     var body: some View {
+
+
+       // Text("Hello, Rania is here#########")
+           // .padding()
+        
+     /*  ZStack{
+            Color.green
+                .ignoresSafeArea()
+            Text("content")
+                .foregroundColor(.white)
+                .font(.system(size: 40))
+        }*/
+
         
       //  Text("Login")
        

@@ -93,7 +93,7 @@ struct ContentView: View {
             return
             }
             print("sucssfuly:  \(result?.user.uid ?? "") ")
-            self.statusMessage="sucffuel: \(result?.user.uid ?? "")"
+            self.statusMessage="sucffuel is : \(result?.user.uid ?? "")"
            
             
            self.storeUserInformation()

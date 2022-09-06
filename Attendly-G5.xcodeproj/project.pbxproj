@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00DD5A728C7B19800DA1E37 /* Attendly_G5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD5A628C7B19800DA1E37 /* Attendly_G5App.swift */; };
+		F00DD5A928C7B19800DA1E37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD5A828C7B19800DA1E37 /* ContentView.swift */; };
+		F00DD5AB28C7B19B00DA1E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00DD5AA28C7B19B00DA1E37 /* Assets.xcassets */; };
+		F00DD5AE28C7B19B00DA1E37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00DD5AD28C7B19B00DA1E37 /* Preview Assets.xcassets */; };
+		F00DD5B828C7B19B00DA1E37 /* Attendly_G5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD5B728C7B19B00DA1E37 /* Attendly_G5Tests.swift */; };
+		F00DD5C228C7B19B00DA1E37 /* Attendly_G5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD5C128C7B19B00DA1E37 /* Attendly_G5UITests.swift */; };
+		F00DD5C428C7B19B00DA1E37 /* Attendly_G5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD5C328C7B19B00DA1E37 /* Attendly_G5UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F00DD5B428C7B19B00DA1E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F00DD59B28C7B19800DA1E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F00DD5A228C7B19800DA1E37;
+			remoteInfo = "Attendly-G5";
+		};
+		F00DD5BE28C7B19B00DA1E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F00DD59B28C7B19800DA1E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F00DD5A228C7B19800DA1E37;
+			remoteInfo = "Attendly-G5";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F00DD5A328C7B19800DA1E37 /* Attendly-G5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attendly-G5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00DD5A628C7B19800DA1E37 /* Attendly_G5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly_G5App.swift; sourceTree = "<group>"; };
+		F00DD5A828C7B19800DA1E37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F00DD5AA28C7B19B00DA1E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00DD5AD28C7B19B00DA1E37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F00DD5B328C7B19B00DA1E37 /* Attendly-G5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendly-G5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00DD5B728C7B19B00DA1E37 /* Attendly_G5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly_G5Tests.swift; sourceTree = "<group>"; };
+		F00DD5BD28C7B19B00DA1E37 /* Attendly-G5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendly-G5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00DD5C128C7B19B00DA1E37 /* Attendly_G5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly_G5UITests.swift; sourceTree = "<group>"; };
+		F00DD5C328C7B19B00DA1E37 /* Attendly_G5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly_G5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00DD5A028C7B19800DA1E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00DD5B028C7B19B00DA1E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00DD5BA28C7B19B00DA1E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F00DD59A28C7B19800DA1E37 = {
+			isa = PBXGroup;
+			children = (
+				F00DD5A528C7B19800DA1E37 /* Attendly-G5 */,
+				F00DD5B628C7B19B00DA1E37 /* Attendly-G5Tests */,
+				F00DD5C028C7B19B00DA1E37 /* Attendly-G5UITests */,
+				F00DD5A428C7B19800DA1E37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F00DD5A428C7B19800DA1E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00DD5A328C7B19800DA1E37 /* Attendly-G5.app */,
+				F00DD5B328C7B19B00DA1E37 /* Attendly-G5Tests.xctest */,
+				F00DD5BD28C7B19B00DA1E37 /* Attendly-G5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F00DD5A528C7B19800DA1E37 /* Attendly-G5 */ = {
+			isa = PBXGroup;
+			children = (
+				F00DD5A628C7B19800DA1E37 /* Attendly_G5App.swift */,
+				F00DD5A828C7B19800DA1E37 /* ContentView.swift */,
+				F00DD5AA28C7B19B00DA1E37 /* Assets.xcassets */,
+				F00DD5AC28C7B19B00DA1E37 /* Preview Content */,
+			);
+			path = "Attendly-G5";
+			sourceTree = "<group>";
+		};
+		F00DD5AC28C7B19B00DA1E37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F00DD5AD28C7B19B00DA1E37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F00DD5B628C7B19B00DA1E37 /* Attendly-G5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F00DD5B728C7B19B00DA1E37 /* Attendly_G5Tests.swift */,
+			);
+			path = "Attendly-G5Tests";
+			sourceTree = "<group>";
+		};
+		F00DD5C028C7B19B00DA1E37 /* Attendly-G5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F00DD5C128C7B19B00DA1E37 /* Attendly_G5UITests.swift */,
+				F00DD5C328C7B19B00DA1E37 /* Attendly_G5UITestsLaunchTests.swift */,
+			);
+			path = "Attendly-G5UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F00DD5A228C7B19800DA1E37 /* Attendly-G5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00DD5C728C7B19B00DA1E37 /* Build configuration list for PBXNativeTarget "Attendly-G5" */;
+			buildPhases = (
+				F00DD59F28C7B19800DA1E37 /* Sources */,
+				F00DD5A028C7B19800DA1E37 /* Frameworks */,
+				F00DD5A128C7B19800DA1E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Attendly-G5";
+			productName = "Attendly-G5";
+			productReference = F00DD5A328C7B19800DA1E37 /* Attendly-G5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F00DD5B228C7B19B00DA1E37 /* Attendly-G5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00DD5CA28C7B19B00DA1E37 /* Build configuration list for PBXNativeTarget "Attendly-G5Tests" */;
+			buildPhases = (
+				F00DD5AF28C7B19B00DA1E37 /* Sources */,
+				F00DD5B028C7B19B00DA1E37 /* Frameworks */,
+				F00DD5B128C7B19B00DA1E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F00DD5B528C7B19B00DA1E37 /* PBXTargetDependency */,
+			);
+			name = "Attendly-G5Tests";
+			productName = "Attendly-G5Tests";
+			productReference = F00DD5B328C7B19B00DA1E37 /* Attendly-G5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F00DD5BC28C7B19B00DA1E37 /* Attendly-G5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00DD5CD28C7B19B00DA1E37 /* Build configuration list for PBXNativeTarget "Attendly-G5UITests" */;
+			buildPhases = (
+				F00DD5B928C7B19B00DA1E37 /* Sources */,
+				F00DD5BA28C7B19B00DA1E37 /* Frameworks */,
+				F00DD5BB28C7B19B00DA1E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F00DD5BF28C7B19B00DA1E37 /* PBXTargetDependency */,
+			);
+			name = "Attendly-G5UITests";
+			productName = "Attendly-G5UITests";
+			productReference = F00DD5BD28C7B19B00DA1E37 /* Attendly-G5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F00DD59B28C7B19800DA1E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F00DD5A228C7B19800DA1E37 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F00DD5B228C7B19B00DA1E37 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F00DD5A228C7B19800DA1E37;
+					};
+					F00DD5BC28C7B19B00DA1E37 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F00DD5A228C7B19800DA1E37;
+					};
+				};
+			};
+			buildConfigurationList = F00DD59E28C7B19800DA1E37 /* Build configuration list for PBXProject "Attendly-G5" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F00DD59A28C7B19800DA1E37;
+			productRefGroup = F00DD5A428C7B19800DA1E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F00DD5A228C7B19800DA1E37 /* Attendly-G5 */,
+				F00DD5B228C7B19B00DA1E37 /* Attendly-G5Tests */,
+				F00DD5BC28C7B19B00DA1E37 /* Attendly-G5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F00DD5A128C7B19800DA1E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00DD5AE28C7B19B00DA1E37 /* Preview Assets.xcassets in Resources */,
+				F00DD5AB28C7B19B00DA1E37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00DD5B128C7B19B00DA1E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00DD5BB28C7B19B00DA1E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F00DD59F28C7B19800DA1E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00DD5A928C7B19800DA1E37 /* ContentView.swift in Sources */,
+				F00DD5A728C7B19800DA1E37 /* Attendly_G5App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00DD5AF28C7B19B00DA1E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00DD5B828C7B19B00DA1E37 /* Attendly_G5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00DD5B928C7B19B00DA1E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00DD5C228C7B19B00DA1E37 /* Attendly_G5UITests.swift in Sources */,
+				F00DD5C428C7B19B00DA1E37 /* Attendly_G5UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F00DD5B528C7B19B00DA1E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F00DD5A228C7B19800DA1E37 /* Attendly-G5 */;
+			targetProxy = F00DD5B428C7B19B00DA1E37 /* PBXContainerItemProxy */;
+		};
+		F00DD5BF28C7B19B00DA1E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F00DD5A228C7B19800DA1E37 /* Attendly-G5 */;
+			targetProxy = F00DD5BE28C7B19B00DA1E37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F00DD5C528C7B19B00DA1E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F00DD5C628C7B19B00DA1E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00DD5C828C7B19B00DA1E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Attendly-G5/Preview Content\"";
+				DEVELOPMENT_TEAM = K9TPRSV2Z7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-SwiftDemo.Attendly-G5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F00DD5C928C7B19B00DA1E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Attendly-G5/Preview Content\"";
+				DEVELOPMENT_TEAM = K9TPRSV2Z7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-SwiftDemo.Attendly-G5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F00DD5CB28C7B19B00DA1E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9TPRSV2Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-SwiftDemo.Attendly-G5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Attendly-G5.app/Attendly-G5";
+			};
+			name = Debug;
+		};
+		F00DD5CC28C7B19B00DA1E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9TPRSV2Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-SwiftDemo.Attendly-G5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Attendly-G5.app/Attendly-G5";
+			};
+			name = Release;
+		};
+		F00DD5CE28C7B19B00DA1E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9TPRSV2Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-SwiftDemo.Attendly-G5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Attendly-G5";
+			};
+			name = Debug;
+		};
+		F00DD5CF28C7B19B00DA1E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9TPRSV2Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-SwiftDemo.Attendly-G5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Attendly-G5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00DD59E28C7B19800DA1E37 /* Build configuration list for PBXProject "Attendly-G5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00DD5C528C7B19B00DA1E37 /* Debug */,
+				F00DD5C628C7B19B00DA1E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00DD5C728C7B19B00DA1E37 /* Build configuration list for PBXNativeTarget "Attendly-G5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00DD5C828C7B19B00DA1E37 /* Debug */,
+				F00DD5C928C7B19B00DA1E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00DD5CA28C7B19B00DA1E37 /* Build configuration list for PBXNativeTarget "Attendly-G5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00DD5CB28C7B19B00DA1E37 /* Debug */,
+				F00DD5CC28C7B19B00DA1E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00DD5CD28C7B19B00DA1E37 /* Build configuration list for PBXNativeTarget "Attendly-G5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00DD5CE28C7B19B00DA1E37 /* Debug */,
+				F00DD5CF28C7B19B00DA1E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F00DD59B28C7B19800DA1E37 /* Project object */;
+}

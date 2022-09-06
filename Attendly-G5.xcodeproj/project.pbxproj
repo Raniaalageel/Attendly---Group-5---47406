@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53435F9B28C7CE5900D48BF4 /* splashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53435F9A28C7CE5900D48BF4 /* splashScreenView.swift */; };
 		F00DD5A728C7B19800DA1E37 /* Attendly_G5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD5A628C7B19800DA1E37 /* Attendly_G5App.swift */; };
 		F00DD5A928C7B19800DA1E37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD5A828C7B19800DA1E37 /* ContentView.swift */; };
 		F00DD5AB28C7B19B00DA1E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00DD5AA28C7B19B00DA1E37 /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53435F9A28C7CE5900D48BF4 /* splashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreenView.swift; sourceTree = "<group>"; };
 		F00DD5A328C7B19800DA1E37 /* Attendly-G5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attendly-G5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00DD5A628C7B19800DA1E37 /* Attendly_G5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly_G5App.swift; sourceTree = "<group>"; };
 		F00DD5A828C7B19800DA1E37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				F00DD5AA28C7B19B00DA1E37 /* Assets.xcassets */,
 				F00DD60928C7B79300DA1E37 /* GoogleService-Info.plist */,
 				F00DD5AC28C7B19B00DA1E37 /* Preview Content */,
+				53435F9A28C7CE5900D48BF4 /* splashScreenView.swift */,
 			);
 			path = "Attendly-G5";
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53435F9B28C7CE5900D48BF4 /* splashScreenView.swift in Sources */,
 				F00DD5A928C7B19800DA1E37 /* ContentView.swift in Sources */,
 				F00DD5A728C7B19800DA1E37 /* Attendly_G5App.swift in Sources */,
 			);

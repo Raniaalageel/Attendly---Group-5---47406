@@ -19,12 +19,13 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     return true
   }
 }
+
 @main
 struct Attendly_G5App: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            splashScreenView()
         }
     }
 }
